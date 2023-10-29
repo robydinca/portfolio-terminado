@@ -31,10 +31,10 @@ const Contact = () => {
 
     emailjs
       .sendForm(
-        "service_94y20xo",
-        "template_v10u2oh",
+        "service_02fhpv6",
+        "template_6yysd1p",
         formRef.current,
-        "pX_2hasGmGcuvjXIW"
+        "xpKHSULTW5oi1UJPN"
       )
       .then(
         (result) => {
@@ -74,7 +74,7 @@ const Contact = () => {
           className="phoneSvg"
           initial={{ opacity: 1 }}
           whileInView={{ opacity: 0 }}
-          transition={{ delay: 3, duration: 0.4}}
+          transition={{ delay: 2, duration: 0.4}}
         >
           <svg width="450px" height="450px" viewBox="0 0 32.666 32.666">
             <motion.path
@@ -104,14 +104,17 @@ const Contact = () => {
           onSubmit={sendEmail}
           initial={{ opacity: 0 }}
           whileInView={{ opacity: 1 }}
-          transition={{ delay: 4, duration: 0.8 }}
+          transition={{ delay: 3, duration: 0.6 }}
         >
-          <input type="text" required placeholder="Name" name="name"/>
-          <input type="email" required placeholder="Email" name="email"/>
-          <textarea rows={8} placeholder="Message" name="message"/>
-          <button>Submit</button>
-          {error && "Error"}
-          {success && "Success"}
+          <input type="text" required placeholder="Nombre" name="name" id="name"/>
+          <input type="email" required placeholder="Email" name="email" id="email"/>
+          <textarea rows={8} placeholder="Tu mensaje" name="message" id="message"/>
+          <input type="submit" id="button" value="Enviar" className="sendButton" />
+
+          <div className="mensaje">
+            {error && "Error"}
+            {success && "Mensaje enviado con éxito! Pronto me pondré en contacto contigo."}
+          </div>
         </motion.form>
       </div>
     </motion.div>

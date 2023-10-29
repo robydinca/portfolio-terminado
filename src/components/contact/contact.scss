@@ -86,15 +86,24 @@
         }
       }
 
-      button {
+      .sendButton:hover {
         padding: 20px;
         border: none;
         background-color: #ffb400;
+        border: 1px solid #ffb400;
         cursor: pointer;
         font-weight: 500;
         @include mobile {
           padding: 10px;
         }
+      }
+
+      .mensaje {
+        color: #ffb400;
+        font-weight: 500;
+        padding: 20px;
+        border-radius: 5px;
+        text-align: center;
       }
     }
   }
