@@ -42,7 +42,6 @@ const Services = () => {
       </motion.div>
       <motion.div className="titleContainer" variants={variants}>
         <div className="title">
-          <img src="fullstack1.jpg" alt="" className="imgFullStack" />
           <h1>
             <motion.b whileHover={{color:"#ffb400"}}>FullStack</motion.b>
           </h1>
@@ -53,7 +52,7 @@ const Services = () => {
           </h1>
           <button>
             <a href="https://github.com/robydinca" target="blank" className="enlanceGithub">
-              <img src="githubButton.svg" alt="" />
+              <img src="githubButton.svg" alt="" className="imgGithub" />
               robydinca</a>
           </button>
           
@@ -116,7 +115,7 @@ const Services = () => {
               <img src="mongodb.webp" alt="" />
               <img src="postgre.svg" alt="" />
               <img src="phpmyadmin.png" alt="" />
-              <img src="redis.png" alt="" />
+              <img src="datagrip.avif" alt="" />
             </div>
 
         </motion.div>

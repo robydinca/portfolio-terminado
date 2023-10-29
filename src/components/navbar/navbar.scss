@@ -41,6 +41,11 @@
       img {
         width: 18px;
         height: 18px;
+
+        @include mobile {
+          width: 26px;
+          height: 26px;
+        }
       }
     }
   }

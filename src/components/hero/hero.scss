@@ -24,24 +24,41 @@
         width: 100%;
         gap: 20px;
         align-items: center;
+        justify-content: center;
         text-align: center;
       }
 
       h2 {
-        font-size: 30px;
-        color: rebeccapurple;
-        letter-spacing: 10px;
-      }
-
-      h1 {
         font-size: 88px;
 
         @include mobile {
           font-size: 36px;
+          margin-top: 10px;
+          padding: 20px;
+          padding-top: 0px;
+        }
+      }
+
+      h1 {
+        font-size: 30px;
+        color: rebeccapurple;
+        letter-spacing: 10px;
+
+        @include mobile {
+          margin-top: 40px;
+          margin-bottom: 20px;  
         }
       }
 
       .buttons {
+
+        @include mobile {
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          margin-left: 18px;
+        }
+
         button {
           padding: 20px;
           border: 1px solid white;
@@ -56,6 +73,12 @@
 
       img {
         width: 50px;
+        position: relative;
+        left: 30%;
+
+        @include mobile {
+          display: none;
+        }
       }
     }
   }

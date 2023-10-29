@@ -47,19 +47,19 @@ const Hero = () => {
           initial="initial"
           animate="animate"
         >
-          <motion.h2 variants={textVariants}>Robert Mihai Dinca</motion.h2>
-          <motion.h1 variants={textVariants}>
-            Desarrollador Web Full Stack          </motion.h1>
+          <motion.h1 variants={textVariants}>Robert Mihai Dinca</motion.h1>
           <motion.div variants={textVariants} className="buttons">
-            <a href="#Portfolio">
+            <a href="#Proyectos">
             <motion.button variants={textVariants} wileHover={{ scale: 1.1 }} whileTap={{ scale: 0.95 }}>
               See the Latest Works
             </motion.button>
             </a>
-            <a href="#Contact">
+            <a href="#Contacto">
             <motion.button variants={textVariants}  wileHover={{ scale: 1.1 }} whileTap={{ scale: 0.95 }}>Contact Me</motion.button>
             </a>
           </motion.div>
+          <motion.h2 variants={textVariants}>
+            Desarrollador Web Full Stack          </motion.h2>
           <motion.img
             variants={textVariants}
             animate="scrollButton"
