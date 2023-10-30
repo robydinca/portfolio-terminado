@@ -65,7 +65,7 @@ const Services = () => {
         >
           <h2>Frontend</h2>
             <div className="imgContainer">
-              <img src="html.webp" alt="" />
+              <img src="html.png" alt="" />
               <img src="css.png" alt="" />
               <img src="js.png" alt="" />
               <img src="react.jpg" alt="" />
@@ -112,10 +112,10 @@ const Services = () => {
           <div className="imgContainer">
               <img src="mysql.png" alt="" />
               <img src="mariadb.png" alt="" />
-              <img src="mongodb.webp" alt="" />
+              <img src="mongodb.png" alt="" />
               <img src="postgre.svg" alt="" />
               <img src="phpmyadmin.png" alt="" />
-              <img src="datagrip.avif" alt="" />
+              <img src="datagrip.png" alt="" />
             </div>
 
         </motion.div>
