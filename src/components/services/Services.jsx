@@ -112,7 +112,7 @@ const Services = () => {
           <div className="imgContainer">
               <img src="mysql.png" alt="" />
               <img src="mariadb.png" alt="" />
-              <img src="mongodb.png" alt="" />
+              <img src="mongo.png" alt="" />
               <img src="postgre.svg" alt="" />
               <img src="phpmyadmin.png" alt="" />
               <img src="datagrip.png" alt="" />
