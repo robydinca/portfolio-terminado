@@ -16,6 +16,7 @@
     "axios": "^1.6.0",
     "build": "^0.1.4",
     "clean": "^4.0.2",
+    "clear": "^0.1.0",
     "emailjs-com": "^3.2.0",
     "framer-motion": "^10.16.4",
     "react": "18.2.0",
