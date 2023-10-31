@@ -20,7 +20,7 @@ const Navbar = () => {
         </motion.span>
         <div className="social">
           <a href="#">
-            <img src="/facebook.png" alt="" />
+            <img src="/linkedin.png" alt="" />
           </a>
           <a href="#">
             <img src="/instagram.png" alt="" />
@@ -29,7 +29,7 @@ const Navbar = () => {
             <img src="/youtube.png" alt="" />
           </a>
           <a href="#">
-            <img src="/dribbble.png" alt="" />
+            <img src="/twitter.png" alt="" />
           </a>
         </div>
       </div>

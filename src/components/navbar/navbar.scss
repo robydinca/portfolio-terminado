@@ -37,10 +37,33 @@
     .social {
       display: flex;
       gap: 20px;
+      align-items: center;
 
+      a:first-child {
+
+        img {
+          width: 26.5px;
+          height: 26px;
+          border-radius: 10px;
+
+          @include mobile {
+            width: 30px;
+            height: 30px;
+          }
+        }
+      }
+
+      a:last-child{
+
+        img{
+          border-radius: 2px;
+        }
+        
+      }
+      
       img {
-        width: 18px;
-        height: 18px;
+        width: 22px;
+        height: 22px;
 
         @include mobile {
           width: 26px;

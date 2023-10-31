@@ -51,11 +51,11 @@ const Hero = () => {
           <motion.div variants={textVariants} className="buttons">
             <a href="#Proyectos">
             <motion.button variants={textVariants} wileHover={{ scale: 1.1 }} whileTap={{ scale: 0.95 }}>
-              See the Latest Works
+              Últimos Proyectos
             </motion.button>
             </a>
             <a href="#Contacto">
-            <motion.button variants={textVariants}  wileHover={{ scale: 1.1 }} whileTap={{ scale: 0.95 }}>Contact Me</motion.button>
+            <motion.button variants={textVariants}  wileHover={{ scale: 1.1 }} whileTap={{ scale: 0.95 }}>Contacto</motion.button>
             </a>
           </motion.div>
           <motion.h2 variants={textVariants}>
