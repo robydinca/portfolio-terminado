@@ -45,7 +45,7 @@ const Modal = ({ open, onClose }) => {
             whileHover={{ scale: 1.1 }}
             whileTap={{ scale: 0.9 }}
           >
-            <img src='../public/Folder.svg' alt='folder' />
+            <img src='../../../public/folder.svg' alt='folder' />
             <h2>Frontend</h2>
           </motion.button>
           <motion.button
@@ -54,7 +54,7 @@ const Modal = ({ open, onClose }) => {
             whileHover={{ scale: 1.1 }}
             whileTap={{ scale: 0.9 }}
           >
-            <img src='../public/Folder.svg' alt='folder' />
+            <img src='../../../public/folder.svg' alt='folder' />
             <h2>Backend</h2>
           </motion.button>
         </div>
@@ -70,7 +70,7 @@ const Modal = ({ open, onClose }) => {
             whileHover={{ scale: 1.1 }}
             whileTap={{ scale: 0.9 }}
           >
-            <img src='../public/Folder.svg' alt='folder' />
+            <img src='../../../public/folder.svg' alt='folder' />
             <h2>Headers</h2>
           </motion.button>
           <motion.button
@@ -79,7 +79,7 @@ const Modal = ({ open, onClose }) => {
             whileHover={{ scale: 1.1 }}
             whileTap={{ scale: 0.9 }}
           >
-            <img src='../public/Folder.svg' alt='folder' />
+            <img src='../../../public/folder.svg' alt='folder' />
             <h2>Responsive</h2>
           </motion.button>
         </div>
@@ -101,7 +101,7 @@ const Modal = ({ open, onClose }) => {
               whileHover={{ scale: 1.1 }}
               whileTap={{ scale: 0.9 }}
             >
-              <img src='../public/Folder.svg' alt='folder' />
+              <img src='../../../public/folder.svg' alt='folder' />
               <h2>{folder}</h2>
             </motion.button>
           ))}
@@ -124,7 +124,7 @@ const Modal = ({ open, onClose }) => {
               whileHover={{ scale: 1.1 }}
               whileTap={{ scale: 0.9 }}
             >
-              <img src='../public/Folder.svg' alt='folder' />
+              <img src='../../../public/folder.svg' alt='folder' />
               <h2>{folder}</h2>
             </motion.button>
           ))}
@@ -482,7 +482,7 @@ const Modal = ({ open, onClose }) => {
             className='modalContainer'
           >
             <button className='closeBtn' onClick={onClose}>
-              <img src='../public/close2.svg' alt='close' />
+              <img src='../../../public/close2.svg' alt='close' />
             </button>
             {renderDirectoryPath()}
             {renderFolders()}
