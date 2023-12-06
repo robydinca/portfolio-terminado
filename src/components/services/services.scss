@@ -5,8 +5,9 @@
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  position: relative;
 
-    .textContainer {
+  .textContainer {
     flex: 1;
     align-self: flex-end;
     display: flex;
@@ -40,10 +41,12 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    position: relative;
+    bottom: 60px;
 
     @include mobile {
       width: 100%;
-      margin-top: 100px;
+      margin-top: 150px;
     }
 
     .title {
@@ -58,7 +61,6 @@
       }
 
       .imgFullStack {
-        
         @include mobile {
           display: none;
         }
@@ -79,18 +81,14 @@
       h1 {
         font-size: 78px;
         font-weight: 100;
+        color: white;
 
         @include mobile {
           font-size: 36px;
         }
       }
 
-      button:hover {
-        background-color: white;
-        color: #111132; 
-      }
-
-      button {
+      .enlaceGithub {
         width: 300px;
         height: 100px;
         border-radius: 50px;
@@ -99,12 +97,12 @@
         font-size: 24px;
         cursor: pointer;
 
-
         a {
           display: flex;
           align-items: center;
           justify-content: center;
-          gap:20px;
+          gap: 20px;
+          color: #111132;
         }
 
         img {
@@ -128,6 +126,7 @@
   .listContainer {
     flex: 2;
     display: flex;
+
     max-width: 1366px;
     margin: auto;
     margin-bottom: 60px;
@@ -135,19 +134,18 @@
     border-radius: 20px;
     text-align: center;
     position: relative;
-    top: 40px;
+    top: 0px;
 
-    
     .imgContainer {
       display: grid;
       grid-template-columns: 1fr 1fr;
-      gap:10px;
+      gap: 10px;
 
-      a { 
+      a {
         display: flex;
         align-items: center;
         justify-content: center;
-        border : 2px solid #ffb400;
+        border: 2px solid #ffb400;
         border-radius: 50%;
       }
 
@@ -176,8 +174,9 @@
       display: flex;
       flex-direction: column;
       justify-content: space-between;
-      gap:10px;
-
+      gap: 10px;
+      align-items: center;
+      cursor: none;
 
       img {
         width: 80px;
@@ -204,7 +203,7 @@
         }
       }
 
-      button {
+      .enlaceGithub {
         padding: 10px;
         background-color: #ffb400;
         border: none;
@@ -219,6 +218,47 @@
           padding: 5px;
         }
       }
+    }
+  }
+}
+
+.modalButton {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  color: white;
+  font-size: 78px;
+  font-weight: 700;
+  line-height: 100px;
+  letter-spacing: 2;
+  font-family: "DM Sans", sans-serif;
+
+
+}
+
+.after {
+  position: relative;
+  
+  &::after {
+    content: "click";
+    font-size: 18px;
+    font-weight: 700;
+    text-indent: -40px;
+    position: absolute;
+    background-image: url(../../../public/pointer.svg);
+    background-repeat: no-repeat;
+    background-size: 60px;
+    background-position: right;
+    color: #ffb400;
+    width: 60px;
+    height: 60px;
+    top: 65px;
+    left: -35px;
+
+
+    @include mobile {
+      top: 80px;
+      left: -30px;
     }
   }
 }
