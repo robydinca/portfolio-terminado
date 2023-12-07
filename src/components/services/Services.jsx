@@ -4,6 +4,7 @@ import "./services.scss";
 import { motion, useInView } from "framer-motion";
 import Modal from "../modal/Modal";
 
+
 const variants = {
   initial: {
     x: -500,

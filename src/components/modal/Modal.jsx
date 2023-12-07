@@ -45,7 +45,7 @@ const Modal = ({ open, onClose }) => {
             whileHover={{ scale: 1.1 }}
             whileTap={{ scale: 0.9 }}
           >
-            <img src='../../public/folder.svg' alt='folder' />
+            <img src='/folder.svg' alt='folder' />
             <h2>Frontend</h2>
           </motion.button>
           <motion.button
@@ -54,7 +54,7 @@ const Modal = ({ open, onClose }) => {
             whileHover={{ scale: 1.1 }}
             whileTap={{ scale: 0.9 }}
           >
-            <img src='../../public/folder.svg' alt='folder' />
+            <img src='/folder.svg' alt='folder' />
             <h2>Backend</h2>
           </motion.button>
         </div>
@@ -70,7 +70,7 @@ const Modal = ({ open, onClose }) => {
             whileHover={{ scale: 1.1 }}
             whileTap={{ scale: 0.9 }}
           >
-            <img src='../../public/folder.svg' alt='folder' />
+            <img src='/folder.svg' alt='folder' />
             <h2>Headers</h2>
           </motion.button>
           <motion.button
@@ -79,7 +79,7 @@ const Modal = ({ open, onClose }) => {
             whileHover={{ scale: 1.1 }}
             whileTap={{ scale: 0.9 }}
           >
-            <img src='../../public/folder.svg' alt='folder' />
+            <img src='/folder.svg' alt='folder' />
             <h2>Responsive</h2>
           </motion.button>
         </div>
@@ -101,7 +101,7 @@ const Modal = ({ open, onClose }) => {
               whileHover={{ scale: 1.1 }}
               whileTap={{ scale: 0.9 }}
             >
-              <img src='../../public/folder.svg' alt='folder' />
+              <img src='/folder.svg' alt='folder' />
               <h2>{folder}</h2>
             </motion.button>
           ))}
@@ -124,7 +124,7 @@ const Modal = ({ open, onClose }) => {
               whileHover={{ scale: 1.1 }}
               whileTap={{ scale: 0.9 }}
             >
-              <img src='../../public/folder.svg' alt='folder' />
+              <img src='/folder.svg' alt='folder' />
               <h2>{folder}</h2>
             </motion.button>
           ))}
@@ -142,7 +142,7 @@ const Modal = ({ open, onClose }) => {
                 target='blank'
                 className='demo'
               >
-                <img src='../../public/demo.png' />
+                <img src='/demo.png' />
                 <h2>Demo</h2>
               </a>
               <a
@@ -150,7 +150,7 @@ const Modal = ({ open, onClose }) => {
                 target='blank'
                 className='source'
               >
-                <img src='../../public/source.png' />
+                <img src='/source.png' />
                 <h2>Source</h2>
               </a>
             </div>
@@ -170,7 +170,7 @@ const Modal = ({ open, onClose }) => {
                 target='blank'
                 className='demo'
               >
-                <img src='../../public/demo.png' />
+                <img src='/demo.png' />
                 <h2>Demo</h2>
               </a>
               <a
@@ -178,7 +178,7 @@ const Modal = ({ open, onClose }) => {
                 target='blank'
                 className='source'
               >
-                <img src='../../public/source.png' />
+                <img src='/source.png' />
                 <h2>Source</h2>
               </a>
             </div>
@@ -198,7 +198,7 @@ const Modal = ({ open, onClose }) => {
                 target='blank'
                 className='demo'
               >
-                <img src='../../public/demo.png' />
+                <img src='/demo.png' />
                 <h2>Demo</h2>
               </a>
               <a
@@ -206,7 +206,7 @@ const Modal = ({ open, onClose }) => {
                 target='blank'
                 className='source'
               >
-                <img src='../../public/source.png' />
+                <img src='/source.png' />
                 <h2>Source</h2>
               </a>
             </div>
@@ -226,7 +226,7 @@ const Modal = ({ open, onClose }) => {
                 target='blank'
                 className='demo'
               >
-                <img src='../../public/demo.png' />
+                <img src='/demo.png' />
                 <h2>Demo</h2>
               </a>
               <a
@@ -234,7 +234,7 @@ const Modal = ({ open, onClose }) => {
                 target='blank'
                 className='source'
               >
-                <img src='../../public/source.png' />
+                <img src='/source.png' />
                 <h2>Source</h2>
               </a>
             </div>
@@ -254,7 +254,7 @@ const Modal = ({ open, onClose }) => {
                 target='blank'
                 className='demo'
               >
-                <img src='../../public/demo.png' />
+                <img src='/demo.png' />
                 <h2>Demo</h2>
               </a>
               <a
@@ -262,7 +262,7 @@ const Modal = ({ open, onClose }) => {
                 target='blank'
                 className='source'
               >
-                <img src='../../public/source.png' />
+                <img src='/source.png' />
                 <h2>Source</h2>
               </a>
             </div>
@@ -282,7 +282,7 @@ const Modal = ({ open, onClose }) => {
                 target='blank'
                 className='demo'
               >
-                <img src='../../public/demo.png' />
+                <img src='/demo.png' />
                 <h2>Demo</h2>
               </a>
               <a
@@ -290,7 +290,7 @@ const Modal = ({ open, onClose }) => {
                 target='blank'
                 className='source'
               >
-                <img src='../../public/source.png' />
+                <img src='/source.png' />
                 <h2>Source</h2>
               </a>
             </div>
@@ -310,7 +310,7 @@ const Modal = ({ open, onClose }) => {
                 target='blank'
                 className='demo'
               >
-                <img src='../../public/demo.png' />
+                <img src='/demo.png' />
                 <h2>Demo</h2>
               </a>
               <a
@@ -318,7 +318,7 @@ const Modal = ({ open, onClose }) => {
                 target='blank'
                 className='source'
               >
-                <img src='../../public/source.png' />
+                <img src='/source.png' />
                 <h2>Source</h2>
               </a>
             </div>
@@ -338,7 +338,7 @@ const Modal = ({ open, onClose }) => {
                 target='blank'
                 className='demo'
               >
-                <img src='../../public/demo.png' />
+                <img src='/demo.png' />
                 <h2>Demo</h2>
               </a>
               <a
@@ -346,7 +346,7 @@ const Modal = ({ open, onClose }) => {
                 target='blank'
                 className='source'
               >
-                <img src='../../public/source.png' />
+                <img src='/source.png' />
                 <h2>Source</h2>
               </a>
             </div>
@@ -366,7 +366,7 @@ const Modal = ({ open, onClose }) => {
                 target='blank'
                 className='demo'
               >
-                <img src='../../public/demo.png' />
+                <img src='/demo.png' />
                 <h2>Demo</h2>
               </a>
               <a
@@ -374,7 +374,7 @@ const Modal = ({ open, onClose }) => {
                 target='blank'
                 className='source'
               >
-                <img src='../../public/source.png' />
+                <img src='/source.png' />
                 <h2>Source</h2>
               </a>
             </div>
@@ -394,7 +394,7 @@ const Modal = ({ open, onClose }) => {
                 target='blank'
                 className='demo'
               >
-                <img src='../../public/demo.png' />
+                <img src='/demo.png' />
                 <h2>Demo</h2>
               </a>
               <a
@@ -402,7 +402,7 @@ const Modal = ({ open, onClose }) => {
                 target='blank'
                 className='source'
               >
-                <img src='../../public/source.png' />
+                <img src='/source.png' />
                 <h2>Source</h2>
               </a>
             </div>
@@ -422,7 +422,7 @@ const Modal = ({ open, onClose }) => {
                 target='blank'
                 className='demo'
               >
-                <img src='../../public/demo.png' />
+                <img src='/demo.png' />
                 <h2>Demo</h2>
               </a>
               <a
@@ -430,7 +430,7 @@ const Modal = ({ open, onClose }) => {
                 target='blank'
                 className='source'
               >
-                <img src='../../public/source.png' />
+                <img src='/source.png' />
                 <h2>Source</h2>
               </a>
             </div>
@@ -482,7 +482,7 @@ const Modal = ({ open, onClose }) => {
             className='modalContainer'
           >
             <button className='closeBtn' onClick={onClose}>
-              <img src='../../public/close2.svg' alt='close' />
+              <img src='/close2.svg' alt='close' />
             </button>
             {renderDirectoryPath()}
             {renderFolders()}
