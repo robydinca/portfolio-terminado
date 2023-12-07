@@ -138,7 +138,7 @@ const Modal = ({ open, onClose }) => {
           {
             <div class='container'>
               <a
-                href='https://imagecolorpicker.com/'
+                href='https://robydinca.github.io/Responsive-1-demo/'
                 target='blank'
                 className='demo'
               >
@@ -146,7 +146,7 @@ const Modal = ({ open, onClose }) => {
                 <h2>Demo</h2>
               </a>
               <a
-                href='https://imagecolorpicker.com/'
+                href='https://github.com/robydinca/Responsive-1'
                 target='blank'
                 className='source'
               >
