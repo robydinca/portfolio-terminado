@@ -49,7 +49,7 @@ const Hero = () => {
         >
           <motion.h1 variants={textVariants}>Robert Mihai Dinca</motion.h1>
           <motion.div variants={textVariants} className="buttons">
-            <a href="#Proyectos">
+            <a href="#Competencias">
             <motion.button variants={textVariants} wileHover={{ scale: 1.1 }} whileTap={{ scale: 0.95 }}>
               Últimos Proyectos
             </motion.button>

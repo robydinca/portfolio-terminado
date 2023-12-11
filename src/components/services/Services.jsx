@@ -73,7 +73,7 @@ const Services = () => {
             open={openModal}
             onClose={() => setOpenModal(false)} />
       </motion.div>
-      <motion.div className="listContainer" variants={variants}>
+      <motion.div className="listContainer" variants={variants}  onClick={() => setOpenModal(true)}>
         <div
             className='box'
         >
