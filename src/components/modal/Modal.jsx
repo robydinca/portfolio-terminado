@@ -110,7 +110,7 @@ const Modal = ({ open, onClose }) => {
     } else if (currentFolder === 'Responsive') {
       // Mostrar las 10 carpetas dinámicas de 'Header 1' a 'Header 10'
       const responsiveFolders = Array.from(
-        { length: 1 },
+        { length: 4 },
         (_, index) => `Responsive ${index + 1}`
       )
       return (
@@ -158,7 +158,94 @@ const Modal = ({ open, onClose }) => {
           }
         </div>
       )
-    } else if (currentFolder === ('Header 1')) {
+    } else if (currentFolder.includes('Responsive 2')) {
+      // Mostrar el contenido de 'Header 1'
+      return (
+        <div>
+          <button className='backBtn' onClick={navigateBack}></button>
+          {
+            <div class='container'>
+              <a
+                href='https://robydinca.github.io/Responsive-2-demo/'
+                target='blank'
+                className='demo'
+              >
+                <img src='/demo.png' />
+                <h2>Demo</h2>
+              </a>
+              <a
+                href='https://github.com/robydinca/Responsive-2'
+                target='blank'
+                className='source'
+              >
+                <img src='/source.png' />
+                <h2>Source</h2>
+              </a>
+            </div>
+            /* Contenido de 'Header 1' */
+          }
+        </div>
+      )
+    }
+    else if (currentFolder.includes('Responsive 3')) {
+      // Mostrar el contenido de 'Header 1'
+      return (
+        <div>
+          <button className='backBtn' onClick={navigateBack}></button>
+          {
+            <div class='container'>
+              <a
+                href='https://robydinca.github.io/Responsive-3-demo/'
+                target='blank'
+                className='demo'
+              >
+                <img src='/demo.png' />
+                <h2>Demo</h2>
+              </a>
+              <a
+                href='https://github.com/robydinca/Responsive-3'
+                target='blank'
+                className='source'
+              >
+                <img src='/source.png' />
+                <h2>Source</h2>
+              </a>
+            </div>
+            /* Contenido de 'Header 1' */
+          }
+        </div>
+      )
+    }
+    else if (currentFolder.includes('Responsive 4')) {
+      // Mostrar el contenido de 'Header 1'
+      return (
+        <div>
+          <button className='backBtn' onClick={navigateBack}></button>
+          {
+            <div class='container'>
+              <a
+                href='https://robydinca.github.io/Responsive-4/'
+                target='blank'
+                className='demo'
+              >
+                <img src='/demo.png' />
+                <h2>Demo</h2>
+              </a>
+              <a
+                href='https://github.com/robydinca/Responsive-4'
+                target='blank'
+                className='source'
+              >
+                <img src='/source.png' />
+                <h2>Source</h2>
+              </a>
+            </div>
+            /* Contenido de 'Header 1' */
+          }
+        </div>
+      )
+    }
+    else if (currentFolder === ('Header 1')) {
       // Mostrar el contenido de 'Header 1'
       return (
         <div>
