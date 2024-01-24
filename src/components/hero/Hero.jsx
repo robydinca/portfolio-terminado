@@ -48,7 +48,7 @@ const Hero = () => {
           animate="animate"
         >
           <motion.h1 variants={textVariants}>Robert Mihai Dinca</motion.h1>
-          <motion.div variants={textVariants} className="buttons">
+          {/* <motion.div variants={textVariants} className="buttons">
             <a href="#Competencias">
             <motion.button variants={textVariants} wileHover={{ scale: 1.1 }} whileTap={{ scale: 0.95 }}>
               Últimos Proyectos
@@ -57,7 +57,7 @@ const Hero = () => {
             <a href="#Contacto">
             <motion.button variants={textVariants}  wileHover={{ scale: 1.1 }} whileTap={{ scale: 0.95 }}>Contacto</motion.button>
             </a>
-          </motion.div>
+          </motion.div> */}
           <motion.h2 variants={textVariants}>
             Desarrollador Web Full Stack          </motion.h2>
           <motion.img
