@@ -227,12 +227,16 @@
   border: none;
   cursor: pointer;
   color: white;
-  font-size: 78px;
+  font-size: 64px;
   font-weight: 700;
   line-height: 100px;
   letter-spacing: 2;
   font-family: "DM Sans", sans-serif;
 
+  @include mobile {
+    font-size: 58px;
+    line-height: 60px;
+  }
 
 }
 
@@ -257,8 +261,8 @@
 
 
     @include mobile {
-      top: 70px;
-      left: -20px;
+      top: 55px;
+      left: -40px;
     }
   }
 }

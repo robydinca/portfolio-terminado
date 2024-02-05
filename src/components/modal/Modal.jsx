@@ -82,9 +82,36 @@ const Modal = ({ open, onClose }) => {
             <img src='/folder.svg' alt='folder' />
             <h2>Responsive</h2>
           </motion.button>
+          <motion.button
+            className='folder'
+            onClick={() => navigateToFolder('Bootstrap')}
+            whileHover={{ scale: 1.1 }}
+            whileTap={{ scale: 0.9 }}
+          >
+            <img src='/folder.svg' alt='folder' />
+            <h2>BootStrap</h2>
+          </motion.button>
         </div>
       )
-    } else if (currentFolder === 'Headers') {
+    } else if (currentFolder === 'Bootstrap') {
+      // Mostrar solo el elemento 'Landing Page' dentro de 'Bootstrap'
+      return (
+        <div className='folders'>
+          <button className='backBtn' onClick={navigateBack}></button>
+          <motion.button
+            className='folder'
+            onClick={() => navigateToFolder('Landing Page')}
+            whileHover={{ scale: 1.1 }}
+            whileTap={{ scale: 0.9 }}
+          >
+            <img src='/folder.svg' alt='folder' />
+            <h2>Landing Page</h2>
+          </motion.button>
+        </div>
+      );
+    }
+    
+    else if (currentFolder === 'Headers') {
       // Mostrar las 10 carpetas dinámicas de 'Header 1' a 'Header 10'
       const headerFolders = Array.from(
         { length: 10 },
@@ -497,7 +524,54 @@ const Modal = ({ open, onClose }) => {
           }
         </div>
       )
-    } else if (currentFolder === ('Header 10')) {
+    } else if (currentFolder === 'Bootstrap' && !folderHistory.length) {
+      // Mostrar carpetas dentro de 'Landing Page' de 'Bootstrap'
+      const landingPageFolders = ['Landing Page']; // Puedes agregar más carpetas según sea necesario
+    
+      return (
+        <div className='folders'>
+          <button className='backBtn' onClick={navigateBack}></button>
+          {landingPageFolders.map((folder, index) => (
+            <motion.button
+              key={index}
+              className='folder'
+              onClick={() => navigateToFolder(folder)}
+              whileHover={{ scale: 1.1 }}
+              whileTap={{ scale: 0.9 }}
+            >
+              <img src='/folder.svg' alt='folder' />
+              <h2>{folder}</h2>
+            </motion.button>
+          ))}
+        </div>
+      );
+    } else if (currentFolder === 'Landing Page') {
+      // Mostrar contenido de 'Landing Page'
+      return (
+        <div>
+          <button className='backBtn' onClick={navigateBack}></button>
+          {/* Contenido específico de 'Landing Page' */}
+          <div className='container'>
+            <a
+              href='https://robydinca.github.io/bootstrap-landing/'  // Reemplaza con la URL correcta del demo
+              target='blank'
+              className='demo'
+            >
+              <img src='/demo.png' />
+              <h2>Demo</h2>
+            </a>
+            <a
+              href='https://github.com/robydinca/bootstrap-landing'  // Reemplaza con la URL correcta del código fuente
+              target='blank'
+              className='source'
+            >
+              <img src='/source.png' />
+              <h2>Source</h2>
+            </a>
+          </div>
+        </div>
+      );
+    }else if (currentFolder === ('Header 10')) {
       // Mostrar el contenido de 'Header 1'
       return (
         <div>
@@ -525,7 +599,8 @@ const Modal = ({ open, onClose }) => {
           }
         </div>
       )
-    } else {
+    } 
+    else {
       // Mostrar el contenido de la carpeta actual
       return (
         <div>
